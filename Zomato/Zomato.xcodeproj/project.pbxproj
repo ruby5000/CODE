@@ -1,0 +1,789 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E54F6D0AB0BB210899CE2CC /* Pods_Zomato.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5044B0E25B6CC0ADF3D3A72 /* Pods_Zomato.framework */; };
+		7D56DA3D299B90950076055D /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA31299B90950076055D /* Constant.swift */; };
+		7D56DA3E299B90950076055D /* DateFormats.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA32299B90950076055D /* DateFormats.swift */; };
+		7D56DA3F299B90950076055D /* CloseButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA33299B90950076055D /* CloseButton.swift */; };
+		7D56DA40299B90950076055D /* SDWebImageSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA34299B90950076055D /* SDWebImageSource.swift */; };
+		7D56DA41299B90950076055D /* commonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA35299B90950076055D /* commonFunction.swift */; };
+		7D56DA42299B90950076055D /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA36299B90950076055D /* Reachability.swift */; };
+		7D56DA43299B90950076055D /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA37299B90950076055D /* CornerView.swift */; };
+		7D56DA44299B90950076055D /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA38299B90950076055D /* TagView.swift */; };
+		7D56DA45299B90950076055D /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA39299B90950076055D /* TagListView.swift */; };
+		7D56DA46299B90950076055D /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA3A299B90950076055D /* ApiConfig.swift */; };
+		7D56DA47299B90950076055D /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA3B299B90950076055D /* UserDefaults.swift */; };
+		7D56DA48299B90950076055D /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D56DA3C299B90950076055D /* Webservices.swift */; };
+		7D69CDF128CDCBF8002372CC /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69CDF028CDCBF8002372CC /* WelcomeVC.swift */; };
+		7D69CDF228CDCBF8002372CC /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69CDF028CDCBF8002372CC /* WelcomeVC.swift */; };
+		7D69CDF328CDCBF8002372CC /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D69CDF028CDCBF8002372CC /* WelcomeVC.swift */; };
+		7D957FDC28DEE0B000B9A27B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D98787F28CDC3F50088DF05 /* Main.storyboard */; };
+		7D957FDD28DEE0B600B9A27B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D98788428CDC3F60088DF05 /* LaunchScreen.storyboard */; };
+		7D957FDE28DEE0BC00B9A27B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D98788228CDC3F60088DF05 /* Assets.xcassets */; };
+		7D957FE028DEEAE600B9A27B /* CountryCallingCodeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D957FDF28DEEAE600B9A27B /* CountryCallingCodeVC.swift */; };
+		7D98787A28CDC3F50088DF05 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98787928CDC3F50088DF05 /* AppDelegate.swift */; };
+		7D98787C28CDC3F50088DF05 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D98787B28CDC3F50088DF05 /* SceneDelegate.swift */; };
+		7DC9586928CDDDB50037B6D2 /* LanguageMenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DC9586828CDDDB50037B6D2 /* LanguageMenuVC.swift */; };
+		7DFBC5FD28DEF69D001D5713 /* OTPVerifyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFBC5FC28DEF69D001D5713 /* OTPVerifyVC.swift */; };
+		7DFBC5FF28DEFF0D001D5713 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7DFBC5FE28DEFF0D001D5713 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7D98788D28CDC3F60088DF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D98786E28CDC3F50088DF05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D98787528CDC3F50088DF05;
+			remoteInfo = Zomato;
+		};
+		7D98789728CDC3F60088DF05 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7D98786E28CDC3F50088DF05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7D98787528CDC3F50088DF05;
+			remoteInfo = Zomato;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4B270C7271F869EDFF776290 /* Pods-Zomato.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zomato.release.xcconfig"; path = "Target Support Files/Pods-Zomato/Pods-Zomato.release.xcconfig"; sourceTree = "<group>"; };
+		7660511F6946D9C35B4FFA71 /* Pods-Zomato.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zomato.debug.xcconfig"; path = "Target Support Files/Pods-Zomato/Pods-Zomato.debug.xcconfig"; sourceTree = "<group>"; };
+		7D56DA31299B90950076055D /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7D56DA32299B90950076055D /* DateFormats.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateFormats.swift; sourceTree = "<group>"; };
+		7D56DA33299B90950076055D /* CloseButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButton.swift; sourceTree = "<group>"; };
+		7D56DA34299B90950076055D /* SDWebImageSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SDWebImageSource.swift; sourceTree = "<group>"; };
+		7D56DA35299B90950076055D /* commonFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonFunction.swift; sourceTree = "<group>"; };
+		7D56DA36299B90950076055D /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7D56DA37299B90950076055D /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
+		7D56DA38299B90950076055D /* TagView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		7D56DA39299B90950076055D /* TagListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		7D56DA3A299B90950076055D /* ApiConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
+		7D56DA3B299B90950076055D /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		7D56DA3C299B90950076055D /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		7D69CDF028CDCBF8002372CC /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		7D957FDF28DEEAE600B9A27B /* CountryCallingCodeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryCallingCodeVC.swift; sourceTree = "<group>"; };
+		7D98787628CDC3F50088DF05 /* Zomato.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zomato.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D98787928CDC3F50088DF05 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D98787B28CDC3F50088DF05 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D98788028CDC3F50088DF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D98788228CDC3F60088DF05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D98788528CDC3F60088DF05 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D98788728CDC3F60088DF05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D98788C28CDC3F60088DF05 /* ZomatoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZomatoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D98789628CDC3F60088DF05 /* ZomatoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZomatoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7DC9586828CDDDB50037B6D2 /* LanguageMenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageMenuVC.swift; sourceTree = "<group>"; };
+		7DFBC5FC28DEF69D001D5713 /* OTPVerifyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerifyVC.swift; sourceTree = "<group>"; };
+		7DFBC5FE28DEFF0D001D5713 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D5044B0E25B6CC0ADF3D3A72 /* Pods_Zomato.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zomato.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D98787328CDC3F50088DF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E54F6D0AB0BB210899CE2CC /* Pods_Zomato.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98788928CDC3F60088DF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98789328CDC3F60088DF05 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C45B5DF45C9759F226C12D0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7660511F6946D9C35B4FFA71 /* Pods-Zomato.debug.xcconfig */,
+				4B270C7271F869EDFF776290 /* Pods-Zomato.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7D56DA30299B90950076055D /* HelperClass */ = {
+			isa = PBXGroup;
+			children = (
+				7D56DA31299B90950076055D /* Constant.swift */,
+				7D56DA32299B90950076055D /* DateFormats.swift */,
+				7D56DA33299B90950076055D /* CloseButton.swift */,
+				7D56DA34299B90950076055D /* SDWebImageSource.swift */,
+				7D56DA35299B90950076055D /* commonFunction.swift */,
+				7D56DA36299B90950076055D /* Reachability.swift */,
+				7D56DA37299B90950076055D /* CornerView.swift */,
+				7D56DA38299B90950076055D /* TagView.swift */,
+				7D56DA39299B90950076055D /* TagListView.swift */,
+				7D56DA3A299B90950076055D /* ApiConfig.swift */,
+				7D56DA3B299B90950076055D /* UserDefaults.swift */,
+				7D56DA3C299B90950076055D /* Webservices.swift */,
+			);
+			path = HelperClass;
+			sourceTree = "<group>";
+		};
+		7D69CDEF28CDCBE2002372CC /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				7DC9586728CDDD900037B6D2 /* Authentication */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		7D98786D28CDC3F50088DF05 = {
+			isa = PBXGroup;
+			children = (
+				7D98787828CDC3F50088DF05 /* Zomato */,
+				7D98787728CDC3F50088DF05 /* Products */,
+				0C45B5DF45C9759F226C12D0 /* Pods */,
+				C0081EFEDF9E3B83DD8B26BF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D98787728CDC3F50088DF05 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D98787628CDC3F50088DF05 /* Zomato.app */,
+				7D98788C28CDC3F60088DF05 /* ZomatoTests.xctest */,
+				7D98789628CDC3F60088DF05 /* ZomatoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D98787828CDC3F50088DF05 /* Zomato */ = {
+			isa = PBXGroup;
+			children = (
+				7D98787928CDC3F50088DF05 /* AppDelegate.swift */,
+				7D98787B28CDC3F50088DF05 /* SceneDelegate.swift */,
+				7D56DA30299B90950076055D /* HelperClass */,
+				7D69CDEF28CDCBE2002372CC /* Viewcontrollers */,
+				7D98787F28CDC3F50088DF05 /* Main.storyboard */,
+				7D98788428CDC3F60088DF05 /* LaunchScreen.storyboard */,
+				7D98788228CDC3F60088DF05 /* Assets.xcassets */,
+				7DFBC5FE28DEFF0D001D5713 /* GoogleService-Info.plist */,
+				7D98788728CDC3F60088DF05 /* Info.plist */,
+			);
+			path = Zomato;
+			sourceTree = "<group>";
+		};
+		7DC9586728CDDD900037B6D2 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				7D69CDF028CDCBF8002372CC /* WelcomeVC.swift */,
+				7DC9586828CDDDB50037B6D2 /* LanguageMenuVC.swift */,
+				7D957FDF28DEEAE600B9A27B /* CountryCallingCodeVC.swift */,
+				7DFBC5FC28DEF69D001D5713 /* OTPVerifyVC.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		C0081EFEDF9E3B83DD8B26BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D5044B0E25B6CC0ADF3D3A72 /* Pods_Zomato.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D98787528CDC3F50088DF05 /* Zomato */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9878A028CDC3F60088DF05 /* Build configuration list for PBXNativeTarget "Zomato" */;
+			buildPhases = (
+				D6671FCA6C3AEB436D1E8429 /* [CP] Check Pods Manifest.lock */,
+				7D98787228CDC3F50088DF05 /* Sources */,
+				7D98787328CDC3F50088DF05 /* Frameworks */,
+				7D98787428CDC3F50088DF05 /* Resources */,
+				E45473829E01898D8CD1DA0D /* [CP] Embed Pods Frameworks */,
+				6E79F438D098434ADA2385D7 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zomato;
+			productName = Zomato;
+			productReference = 7D98787628CDC3F50088DF05 /* Zomato.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7D98788B28CDC3F60088DF05 /* ZomatoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9878A328CDC3F60088DF05 /* Build configuration list for PBXNativeTarget "ZomatoTests" */;
+			buildPhases = (
+				7D98788828CDC3F60088DF05 /* Sources */,
+				7D98788928CDC3F60088DF05 /* Frameworks */,
+				7D98788A28CDC3F60088DF05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D98788E28CDC3F60088DF05 /* PBXTargetDependency */,
+			);
+			name = ZomatoTests;
+			productName = ZomatoTests;
+			productReference = 7D98788C28CDC3F60088DF05 /* ZomatoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7D98789528CDC3F60088DF05 /* ZomatoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D9878A628CDC3F60088DF05 /* Build configuration list for PBXNativeTarget "ZomatoUITests" */;
+			buildPhases = (
+				7D98789228CDC3F60088DF05 /* Sources */,
+				7D98789328CDC3F60088DF05 /* Frameworks */,
+				7D98789428CDC3F60088DF05 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D98789828CDC3F60088DF05 /* PBXTargetDependency */,
+			);
+			name = ZomatoUITests;
+			productName = ZomatoUITests;
+			productReference = 7D98789628CDC3F60088DF05 /* ZomatoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D98786E28CDC3F50088DF05 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					7D98787528CDC3F50088DF05 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					7D98788B28CDC3F60088DF05 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7D98787528CDC3F50088DF05;
+					};
+					7D98789528CDC3F60088DF05 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 7D98787528CDC3F50088DF05;
+					};
+				};
+			};
+			buildConfigurationList = 7D98787128CDC3F50088DF05 /* Build configuration list for PBXProject "Zomato" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D98786D28CDC3F50088DF05;
+			productRefGroup = 7D98787728CDC3F50088DF05 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D98787528CDC3F50088DF05 /* Zomato */,
+				7D98788B28CDC3F60088DF05 /* ZomatoTests */,
+				7D98789528CDC3F60088DF05 /* ZomatoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D98787428CDC3F50088DF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D957FDE28DEE0BC00B9A27B /* Assets.xcassets in Resources */,
+				7DFBC5FF28DEFF0D001D5713 /* GoogleService-Info.plist in Resources */,
+				7D957FDD28DEE0B600B9A27B /* LaunchScreen.storyboard in Resources */,
+				7D957FDC28DEE0B000B9A27B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98788A28CDC3F60088DF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98789428CDC3F60088DF05 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6E79F438D098434ADA2385D7 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zomato/Pods-Zomato-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zomato/Pods-Zomato-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zomato/Pods-Zomato-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D6671FCA6C3AEB436D1E8429 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zomato-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E45473829E01898D8CD1DA0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zomato/Pods-Zomato-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zomato/Pods-Zomato-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zomato/Pods-Zomato-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D98787228CDC3F50088DF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D56DA48299B90950076055D /* Webservices.swift in Sources */,
+				7D56DA40299B90950076055D /* SDWebImageSource.swift in Sources */,
+				7D56DA3D299B90950076055D /* Constant.swift in Sources */,
+				7D56DA42299B90950076055D /* Reachability.swift in Sources */,
+				7D98787A28CDC3F50088DF05 /* AppDelegate.swift in Sources */,
+				7D69CDF128CDCBF8002372CC /* WelcomeVC.swift in Sources */,
+				7D56DA47299B90950076055D /* UserDefaults.swift in Sources */,
+				7D56DA3F299B90950076055D /* CloseButton.swift in Sources */,
+				7D56DA43299B90950076055D /* CornerView.swift in Sources */,
+				7DC9586928CDDDB50037B6D2 /* LanguageMenuVC.swift in Sources */,
+				7D56DA41299B90950076055D /* commonFunction.swift in Sources */,
+				7D957FE028DEEAE600B9A27B /* CountryCallingCodeVC.swift in Sources */,
+				7D56DA46299B90950076055D /* ApiConfig.swift in Sources */,
+				7D56DA45299B90950076055D /* TagListView.swift in Sources */,
+				7DFBC5FD28DEF69D001D5713 /* OTPVerifyVC.swift in Sources */,
+				7D56DA44299B90950076055D /* TagView.swift in Sources */,
+				7D56DA3E299B90950076055D /* DateFormats.swift in Sources */,
+				7D98787C28CDC3F50088DF05 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98788828CDC3F60088DF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D69CDF228CDCBF8002372CC /* WelcomeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D98789228CDC3F60088DF05 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D69CDF328CDCBF8002372CC /* WelcomeVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7D98788E28CDC3F60088DF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D98787528CDC3F50088DF05 /* Zomato */;
+			targetProxy = 7D98788D28CDC3F60088DF05 /* PBXContainerItemProxy */;
+		};
+		7D98789828CDC3F60088DF05 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7D98787528CDC3F50088DF05 /* Zomato */;
+			targetProxy = 7D98789728CDC3F60088DF05 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7D98787F28CDC3F50088DF05 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D98788028CDC3F50088DF05 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D98788428CDC3F60088DF05 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D98788528CDC3F60088DF05 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D98789E28CDC3F60088DF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D98789F28CDC3F60088DF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D9878A128CDC3F60088DF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7660511F6946D9C35B4FFA71 /* Pods-Zomato.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PR849ZVW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zomato/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Zomato;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darshan.com.iOS.Zomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7D9878A228CDC3F60088DF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B270C7271F869EDFF776290 /* Pods-Zomato.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PR849ZVW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zomato/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Zomato;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darshan.com.iOS.Zomato;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		7D9878A428CDC3F60088DF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PR849ZVW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darshan.com.iOS.ZomatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zomato.app/Zomato";
+			};
+			name = Debug;
+		};
+		7D9878A528CDC3F60088DF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PR849ZVW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darshan.com.iOS.ZomatoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zomato.app/Zomato";
+			};
+			name = Release;
+		};
+		7D9878A728CDC3F60088DF05 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PR849ZVW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darshan.com.iOS.ZomatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zomato;
+			};
+			name = Debug;
+		};
+		7D9878A828CDC3F60088DF05 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PR849ZVW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = darshan.com.iOS.ZomatoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zomato;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D98787128CDC3F50088DF05 /* Build configuration list for PBXProject "Zomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D98789E28CDC3F60088DF05 /* Debug */,
+				7D98789F28CDC3F60088DF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9878A028CDC3F60088DF05 /* Build configuration list for PBXNativeTarget "Zomato" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9878A128CDC3F60088DF05 /* Debug */,
+				7D9878A228CDC3F60088DF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9878A328CDC3F60088DF05 /* Build configuration list for PBXNativeTarget "ZomatoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9878A428CDC3F60088DF05 /* Debug */,
+				7D9878A528CDC3F60088DF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D9878A628CDC3F60088DF05 /* Build configuration list for PBXNativeTarget "ZomatoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D9878A728CDC3F60088DF05 /* Debug */,
+				7D9878A828CDC3F60088DF05 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D98786E28CDC3F50088DF05 /* Project object */;
+}

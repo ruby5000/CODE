@@ -1,0 +1,32 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+  target 'productstore' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for productstore
+   pod 'IQKeyboardManagerSwift'
+   pod 'SOTabBar'
+   pod 'TagListView'
+   pod 'Firebase/Core'
+   pod 'FirebaseAuth'
+   pod 'Firebase/Crashlytics'
+   pod 'Firebase/Analytics'
+   pod 'Firebase/Messaging'
+   pod 'GoogleSignIn'
+   pod 'FacebookCore' # '~>0.3.0'
+   pod 'FacebookLogin' # '~>0.3.0'
+   pod 'FBSDKLoginKit'
+   pod 'RangeSeekSlider'
+   pod 'ImageSlideshow'
+   pod 'Cosmos'
+   pod 'MBProgressHUD'
+   pod 'SwiftyJSON'
+   pod 'Alamofire'
+   pod 'SDWebImage'
+   pod 'Stripe'
+   pod 'iOSDropDown'
+   
+
+end

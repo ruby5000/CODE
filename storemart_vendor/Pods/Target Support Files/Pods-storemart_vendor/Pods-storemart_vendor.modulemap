@@ -1,0 +1,6 @@
+framework module Pods_storemart_vendor {
+  umbrella header "Pods-storemart_vendor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,25 @@
+target 'Zomato' do
+	use_frameworks!
+  
+
+  pod 'IQKeyboardManagerSwift'
+  pod 'Firebase/Core'
+  pod 'FirebaseAuth'
+  pod 'Firebase/Crashlytics'
+  pod 'Firebase/Analytics'
+  pod 'Firebase/Messaging'
+  pod 'GoogleSignIn'
+  pod 'FacebookCore' # '~>0.3.0'
+  pod 'FacebookLogin' # '~>0.3.0'
+  pod 'FBSDKLoginKit'
+  pod 'FBSDKCoreKit'
+  pod 'ImageSlideshow'
+  pod 'MBProgressHUD'
+  pod 'SwiftyJSON'
+  pod 'Alamofire'
+  pod 'SDWebImage'
+  pod 'Stripe'
+  pod 'iOSDropDown'
+  
+end
+
