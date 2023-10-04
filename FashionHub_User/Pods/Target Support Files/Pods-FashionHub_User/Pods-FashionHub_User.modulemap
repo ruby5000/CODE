@@ -1,0 +1,6 @@
+framework module Pods_FashionHub_User {
+  umbrella header "Pods-FashionHub_User-umbrella.h"
+
+  export *
+  module * { export * }
+}

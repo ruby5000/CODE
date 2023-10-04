@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3CDB9922CA99E436C793214D /* Pods_BookingDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60925AD175825BBFC55BB525 /* Pods_BookingDo.framework */; };
+		BD021B2029925F9F0080043D /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD021B1F29925F9F0080043D /* EditProfileVC.swift */; };
+		BD021B22299267BC0080043D /* ContactUsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD021B21299267BC0080043D /* ContactUsVC.swift */; };
+		BD1E66D229925CF50048DE0A /* ChangePasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD1E66D129925CF50048DE0A /* ChangePasswordVC.swift */; };
+		BD3C6A332994AA7800F796FB /* PrivacyPolicyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C6A322994AA7800F796FB /* PrivacyPolicyVC.swift */; };
+		BD3C6A352994AA8C00F796FB /* AboutVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C6A342994AA8C00F796FB /* AboutVC.swift */; };
+		BD3C6A372994AABD00F796FB /* TermsConditionVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD3C6A362994AABD00F796FB /* TermsConditionVC.swift */; };
+		BD7B7DF529920E82004EA390 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7DEF29920E82004EA390 /* Constant.swift */; };
+		BD7B7DF629920E82004EA390 /* commonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7DF029920E82004EA390 /* commonFunction.swift */; };
+		BD7B7DF729920E82004EA390 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7DF129920E82004EA390 /* Reachability.swift */; };
+		BD7B7DF829920E82004EA390 /* CornerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7DF229920E82004EA390 /* CornerView.swift */; };
+		BD7B7DF929920E82004EA390 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7DF329920E82004EA390 /* UserDefaults.swift */; };
+		BD7B7DFA29920E82004EA390 /* Webservices.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7DF429920E82004EA390 /* Webservices.swift */; };
+		BD7B7E0029920FD3004EA390 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7DFF29920FD3004EA390 /* LoginVC.swift */; };
+		BD7B7E0729921D12004EA390 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD7B7E0229921D11004EA390 /* Poppins-Light.ttf */; };
+		BD7B7E0829921D12004EA390 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD7B7E0329921D12004EA390 /* Poppins-Medium.ttf */; };
+		BD7B7E0929921D12004EA390 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD7B7E0429921D12004EA390 /* Poppins-Regular.ttf */; };
+		BD7B7E0A29921D12004EA390 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD7B7E0529921D12004EA390 /* Poppins-Bold.ttf */; };
+		BD7B7E0B29921D12004EA390 /* Poppins-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BD7B7E0629921D12004EA390 /* Poppins-SemiBold.ttf */; };
+		BD7B7E0D299220C6004EA390 /* ForgotPasswordVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7E0C299220C6004EA390 /* ForgotPasswordVC.swift */; };
+		BD7B7E0F299221CC004EA390 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD7B7E0E299221CC004EA390 /* RegisterVC.swift */; };
+		BDAC1E1229934BE100F45560 /* BookingHistoryDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAC1E1129934BE100F45560 /* BookingHistoryDetailsVC.swift */; };
+		BDB8202E29922885005742C2 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8202D29922885005742C2 /* SettingsVC.swift */; };
+		BDB82030299229E5005742C2 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8202F299229E5005742C2 /* HomeVC.swift */; };
+		BDB8203329922A22005742C2 /* BookingHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8203229922A22005742C2 /* BookingHistoryVC.swift */; };
+		BDB8203529922BD5005742C2 /* TabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB8203429922BD5005742C2 /* TabBarVC.swift */; };
+		BDD1313829920DFA009ACA0B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1313729920DFA009ACA0B /* AppDelegate.swift */; };
+		BDD1313A29920DFA009ACA0B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDD1313929920DFA009ACA0B /* SceneDelegate.swift */; };
+		BDD1313F29920DFA009ACA0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD1313D29920DFA009ACA0B /* Main.storyboard */; };
+		BDD1314129920DFC009ACA0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDD1314029920DFC009ACA0B /* Assets.xcassets */; };
+		BDD1314429920DFC009ACA0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDD1314229920DFC009ACA0B /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5B86C7E66DCFB2CB7510D662 /* Pods-BookingDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingDo.release.xcconfig"; path = "Target Support Files/Pods-BookingDo/Pods-BookingDo.release.xcconfig"; sourceTree = "<group>"; };
+		60925AD175825BBFC55BB525 /* Pods_BookingDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BookingDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD021B1F29925F9F0080043D /* EditProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		BD021B21299267BC0080043D /* ContactUsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactUsVC.swift; sourceTree = "<group>"; };
+		BD1E66D129925CF50048DE0A /* ChangePasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangePasswordVC.swift; sourceTree = "<group>"; };
+		BD3C6A322994AA7800F796FB /* PrivacyPolicyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyPolicyVC.swift; sourceTree = "<group>"; };
+		BD3C6A342994AA8C00F796FB /* AboutVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutVC.swift; sourceTree = "<group>"; };
+		BD3C6A362994AABD00F796FB /* TermsConditionVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TermsConditionVC.swift; sourceTree = "<group>"; };
+		BD7B7DEF29920E82004EA390 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		BD7B7DF029920E82004EA390 /* commonFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonFunction.swift; sourceTree = "<group>"; };
+		BD7B7DF129920E82004EA390 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		BD7B7DF229920E82004EA390 /* CornerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CornerView.swift; sourceTree = "<group>"; };
+		BD7B7DF329920E82004EA390 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		BD7B7DF429920E82004EA390 /* Webservices.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Webservices.swift; sourceTree = "<group>"; };
+		BD7B7DFF29920FD3004EA390 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		BD7B7E0229921D11004EA390 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		BD7B7E0329921D12004EA390 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		BD7B7E0429921D12004EA390 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		BD7B7E0529921D12004EA390 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		BD7B7E0629921D12004EA390 /* Poppins-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-SemiBold.ttf"; sourceTree = "<group>"; };
+		BD7B7E0C299220C6004EA390 /* ForgotPasswordVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordVC.swift; sourceTree = "<group>"; };
+		BD7B7E0E299221CC004EA390 /* RegisterVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		BDAC1E1129934BE100F45560 /* BookingHistoryDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHistoryDetailsVC.swift; sourceTree = "<group>"; };
+		BDB8202D29922885005742C2 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		BDB8202F299229E5005742C2 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		BDB8203229922A22005742C2 /* BookingHistoryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookingHistoryVC.swift; sourceTree = "<group>"; };
+		BDB8203429922BD5005742C2 /* TabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarVC.swift; sourceTree = "<group>"; };
+		BDD1313429920DFA009ACA0B /* BookingDo_Vendor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookingDo_Vendor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDD1313729920DFA009ACA0B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDD1313929920DFA009ACA0B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDD1313E29920DFA009ACA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDD1314029920DFC009ACA0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDD1314329920DFC009ACA0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDD1314529920DFC009ACA0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F64F788EF7CD37E10F870C25 /* Pods-BookingDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BookingDo.debug.xcconfig"; path = "Target Support Files/Pods-BookingDo/Pods-BookingDo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDD1313129920DFA009ACA0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CDB9922CA99E436C793214D /* Pods_BookingDo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B2CC9FABA8FAC72FC026C7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60925AD175825BBFC55BB525 /* Pods_BookingDo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1D439F83F7B499439FE5F053 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F64F788EF7CD37E10F870C25 /* Pods-BookingDo.debug.xcconfig */,
+				5B86C7E66DCFB2CB7510D662 /* Pods-BookingDo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BD7B7DEE29920E82004EA390 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				BD7B7DEF29920E82004EA390 /* Constant.swift */,
+				BD7B7DF029920E82004EA390 /* commonFunction.swift */,
+				BD7B7DF129920E82004EA390 /* Reachability.swift */,
+				BD7B7DF229920E82004EA390 /* CornerView.swift */,
+				BD7B7DF329920E82004EA390 /* UserDefaults.swift */,
+				BD7B7DF429920E82004EA390 /* Webservices.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		BD7B7DFB29920EA6004EA390 /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8203429922BD5005742C2 /* TabBarVC.swift */,
+				BD7B7DFC29920EB4004EA390 /* Autentication */,
+				BD7B7DFD29920EC4004EA390 /* Settings */,
+				BD7B7DFE29920ECC004EA390 /* Home */,
+				BDB82031299229EB005742C2 /* BookingHistory */,
+			);
+			path = Viewcontrollers;
+			sourceTree = "<group>";
+		};
+		BD7B7DFC29920EB4004EA390 /* Autentication */ = {
+			isa = PBXGroup;
+			children = (
+				BD7B7DFF29920FD3004EA390 /* LoginVC.swift */,
+				BD7B7E0C299220C6004EA390 /* ForgotPasswordVC.swift */,
+				BD7B7E0E299221CC004EA390 /* RegisterVC.swift */,
+			);
+			path = Autentication;
+			sourceTree = "<group>";
+		};
+		BD7B7DFD29920EC4004EA390 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8202D29922885005742C2 /* SettingsVC.swift */,
+				BD1E66D129925CF50048DE0A /* ChangePasswordVC.swift */,
+				BD021B1F29925F9F0080043D /* EditProfileVC.swift */,
+				BD021B21299267BC0080043D /* ContactUsVC.swift */,
+				BD3C6A322994AA7800F796FB /* PrivacyPolicyVC.swift */,
+				BD3C6A342994AA8C00F796FB /* AboutVC.swift */,
+				BD3C6A362994AABD00F796FB /* TermsConditionVC.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		BD7B7DFE29920ECC004EA390 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8202F299229E5005742C2 /* HomeVC.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		BD7B7E0129921D11004EA390 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BD7B7E0229921D11004EA390 /* Poppins-Light.ttf */,
+				BD7B7E0329921D12004EA390 /* Poppins-Medium.ttf */,
+				BD7B7E0429921D12004EA390 /* Poppins-Regular.ttf */,
+				BD7B7E0529921D12004EA390 /* Poppins-Bold.ttf */,
+				BD7B7E0629921D12004EA390 /* Poppins-SemiBold.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BDB82031299229EB005742C2 /* BookingHistory */ = {
+			isa = PBXGroup;
+			children = (
+				BDB8203229922A22005742C2 /* BookingHistoryVC.swift */,
+				BDAC1E1129934BE100F45560 /* BookingHistoryDetailsVC.swift */,
+			);
+			path = BookingHistory;
+			sourceTree = "<group>";
+		};
+		BDD1312B29920DFA009ACA0B = {
+			isa = PBXGroup;
+			children = (
+				BDD1313629920DFA009ACA0B /* BookingDo_Vendor */,
+				BDD1313529920DFA009ACA0B /* Products */,
+				1D439F83F7B499439FE5F053 /* Pods */,
+				1B2CC9FABA8FAC72FC026C7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BDD1313529920DFA009ACA0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDD1313429920DFA009ACA0B /* BookingDo_Vendor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDD1313629920DFA009ACA0B /* BookingDo_Vendor */ = {
+			isa = PBXGroup;
+			children = (
+				BDD1313729920DFA009ACA0B /* AppDelegate.swift */,
+				BDD1313929920DFA009ACA0B /* SceneDelegate.swift */,
+				BD7B7DEE29920E82004EA390 /* Helper */,
+				BD7B7E0129921D11004EA390 /* Fonts */,
+				BD7B7DFB29920EA6004EA390 /* Viewcontrollers */,
+				BDD1313D29920DFA009ACA0B /* Main.storyboard */,
+				BDD1314229920DFC009ACA0B /* LaunchScreen.storyboard */,
+				BDD1314029920DFC009ACA0B /* Assets.xcassets */,
+				BDD1314529920DFC009ACA0B /* Info.plist */,
+			);
+			path = BookingDo_Vendor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDD1313329920DFA009ACA0B /* BookingDo_Vendor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDD1314829920DFC009ACA0B /* Build configuration list for PBXNativeTarget "BookingDo_Vendor" */;
+			buildPhases = (
+				6189BB525FC34A016025C155 /* [CP] Check Pods Manifest.lock */,
+				BDD1313029920DFA009ACA0B /* Sources */,
+				BDD1313129920DFA009ACA0B /* Frameworks */,
+				BDD1313229920DFA009ACA0B /* Resources */,
+				E9DD85462AFBDD8173BB8162 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BookingDo_Vendor;
+			productName = BookingDo;
+			productReference = BDD1313429920DFA009ACA0B /* BookingDo_Vendor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDD1312C29920DFA009ACA0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					BDD1313329920DFA009ACA0B = {
+						CreatedOnToolsVersion = 13.2;
+					};
+				};
+			};
+			buildConfigurationList = BDD1312F29920DFA009ACA0B /* Build configuration list for PBXProject "BookingDo_Vendor" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDD1312B29920DFA009ACA0B;
+			productRefGroup = BDD1313529920DFA009ACA0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDD1313329920DFA009ACA0B /* BookingDo_Vendor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDD1313229920DFA009ACA0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDD1314429920DFC009ACA0B /* LaunchScreen.storyboard in Resources */,
+				BDD1314129920DFC009ACA0B /* Assets.xcassets in Resources */,
+				BD7B7E0A29921D12004EA390 /* Poppins-Bold.ttf in Resources */,
+				BDD1313F29920DFA009ACA0B /* Main.storyboard in Resources */,
+				BD7B7E0929921D12004EA390 /* Poppins-Regular.ttf in Resources */,
+				BD7B7E0B29921D12004EA390 /* Poppins-SemiBold.ttf in Resources */,
+				BD7B7E0729921D12004EA390 /* Poppins-Light.ttf in Resources */,
+				BD7B7E0829921D12004EA390 /* Poppins-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6189BB525FC34A016025C155 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BookingDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9DD85462AFBDD8173BB8162 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookingDo/Pods-BookingDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-BookingDo/Pods-BookingDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BookingDo/Pods-BookingDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDD1313029920DFA009ACA0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3C6A332994AA7800F796FB /* PrivacyPolicyVC.swift in Sources */,
+				BD7B7DFA29920E82004EA390 /* Webservices.swift in Sources */,
+				BD7B7DF629920E82004EA390 /* commonFunction.swift in Sources */,
+				BD7B7DF829920E82004EA390 /* CornerView.swift in Sources */,
+				BD1E66D229925CF50048DE0A /* ChangePasswordVC.swift in Sources */,
+				BD7B7DF729920E82004EA390 /* Reachability.swift in Sources */,
+				BD021B22299267BC0080043D /* ContactUsVC.swift in Sources */,
+				BD021B2029925F9F0080043D /* EditProfileVC.swift in Sources */,
+				BDB82030299229E5005742C2 /* HomeVC.swift in Sources */,
+				BD7B7E0F299221CC004EA390 /* RegisterVC.swift in Sources */,
+				BDB8202E29922885005742C2 /* SettingsVC.swift in Sources */,
+				BDB8203529922BD5005742C2 /* TabBarVC.swift in Sources */,
+				BD7B7E0D299220C6004EA390 /* ForgotPasswordVC.swift in Sources */,
+				BD7B7DF929920E82004EA390 /* UserDefaults.swift in Sources */,
+				BD3C6A352994AA8C00F796FB /* AboutVC.swift in Sources */,
+				BDAC1E1229934BE100F45560 /* BookingHistoryDetailsVC.swift in Sources */,
+				BDB8203329922A22005742C2 /* BookingHistoryVC.swift in Sources */,
+				BD7B7E0029920FD3004EA390 /* LoginVC.swift in Sources */,
+				BD3C6A372994AABD00F796FB /* TermsConditionVC.swift in Sources */,
+				BDD1313829920DFA009ACA0B /* AppDelegate.swift in Sources */,
+				BDD1313A29920DFA009ACA0B /* SceneDelegate.swift in Sources */,
+				BD7B7DF529920E82004EA390 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BDD1313D29920DFA009ACA0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD1313E29920DFA009ACA0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDD1314229920DFC009ACA0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDD1314329920DFC009ACA0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDD1314629920DFC009ACA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDD1314729920DFC009ACA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDD1314929920DFC009ACA0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64F788EF7CD37E10F870C25 /* Pods-BookingDo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookingDo_Vendor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BookingDo_Vendor;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.BookingDo_Vendor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		BDD1314A29920DFC009ACA0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B86C7E66DCFB2CB7510D662 /* Pods-BookingDo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookingDo_Vendor/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = BookingDo_Vendor;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.demo.BookingDo_Vendor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDD1312F29920DFA009ACA0B /* Build configuration list for PBXProject "BookingDo_Vendor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD1314629920DFC009ACA0B /* Debug */,
+				BDD1314729920DFC009ACA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDD1314829920DFC009ACA0B /* Build configuration list for PBXNativeTarget "BookingDo_Vendor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDD1314929920DFC009ACA0B /* Debug */,
+				BDD1314A29920DFC009ACA0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDD1312C29920DFA009ACA0B /* Project object */;
+}
