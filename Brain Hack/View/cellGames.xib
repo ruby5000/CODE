@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SignikaNegative-Regular.ttf">
+            <string>SignikaNegative-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="cellGames" rowHeight="186" id="KGk-i7-Jjw" customClass="cellGames" customModule="Brain_Hack" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="437" height="186"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="437" height="186"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0cj-6o-Bqh">
+                        <rect key="frame" x="0.0" y="10" width="437" height="166"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_1" translatesAutoresizingMaskIntoConstraints="NO" id="bdP-kr-veS">
+                                <rect key="frame" x="281" y="8" width="140" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="140" id="ZxS-xf-aLg"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Game smart, play harder" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RBj-CC-wUc">
+                                <rect key="frame" x="16" y="25" width="230" height="26"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="26" id="4JL-91-Uo1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="SignikaNegative-Regular" family="Signika Negative" pointSize="19"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kids" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dTH-Ne-J2N">
+                                <rect key="frame" x="16" y="71" width="32.5" height="20"/>
+                                <fontDescription key="fontDescription" name="EuphemiaUCAS-Bold" family="Euphemia UCAS" pointSize="15"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemGray5Color"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="bdP-kr-veS" secondAttribute="bottom" constant="8" id="7Fp-9R-EKJ"/>
+                            <constraint firstAttribute="trailing" secondItem="bdP-kr-veS" secondAttribute="trailing" constant="16" id="Trf-ko-cCH"/>
+                            <constraint firstItem="dTH-Ne-J2N" firstAttribute="top" secondItem="RBj-CC-wUc" secondAttribute="bottom" constant="20" id="YRT-bU-k5b"/>
+                            <constraint firstItem="RBj-CC-wUc" firstAttribute="leading" secondItem="0cj-6o-Bqh" secondAttribute="leading" constant="16" id="arK-6D-Wi2"/>
+                            <constraint firstItem="dTH-Ne-J2N" firstAttribute="leading" secondItem="RBj-CC-wUc" secondAttribute="leading" id="faI-VR-gno"/>
+                            <constraint firstItem="bdP-kr-veS" firstAttribute="leading" secondItem="RBj-CC-wUc" secondAttribute="trailing" constant="35" id="hzh-nF-8Ib"/>
+                            <constraint firstItem="bdP-kr-veS" firstAttribute="top" secondItem="0cj-6o-Bqh" secondAttribute="top" constant="8" id="nhR-t7-3Mh"/>
+                            <constraint firstItem="RBj-CC-wUc" firstAttribute="top" secondItem="0cj-6o-Bqh" secondAttribute="top" constant="25" id="pmz-3T-012"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadiuss">
+                                <real key="value" value="8"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="0cj-6o-Bqh" secondAttribute="trailing" id="37V-tW-qeU"/>
+                    <constraint firstItem="0cj-6o-Bqh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Jef-zM-yi2"/>
+                    <constraint firstItem="0cj-6o-Bqh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kxd-Ud-8Bb"/>
+                    <constraint firstAttribute="bottom" secondItem="0cj-6o-Bqh" secondAttribute="bottom" constant="10" id="nhA-m8-pAd"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="img_mainImage" destination="bdP-kr-veS" id="xwP-MF-8Uq"/>
+                <outlet property="lbl_categories" destination="dTH-Ne-J2N" id="eZA-Sm-MYh"/>
+                <outlet property="lbl_name" destination="RBj-CC-wUc" id="mCW-sx-Ec4"/>
+            </connections>
+            <point key="canvasLocation" x="216.66666666666669" y="131.25"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_1" width="450" height="450"/>
+        <systemColor name="systemGray5Color">
+            <color red="0.89803921568627454" green="0.89803921568627454" blue="0.91764705882352937" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

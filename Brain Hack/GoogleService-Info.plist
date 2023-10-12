@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>603161763999-gq0iffhkm014l571gigeogs7l4q7dpbt.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.603161763999-gq0iffhkm014l571gigeogs7l4q7dpbt</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAn6DES5n1mMko0CyYJmgR5ta_L3QqSLkM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>603161763999</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.darshan.iosDev.Brain-Hack</string>
+	<key>PROJECT_ID</key>
+	<string>brain-hack-fc5b2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>brain-hack-fc5b2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:603161763999:ios:c5ec391bff9579fa9c82aa</string>
+</dict>
+</plist>
