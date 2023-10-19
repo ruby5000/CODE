@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7D26A4F12AD1AC9D00F76739 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7D26A4F02AD1AC9D00F76739 /* GoogleService-Info.plist */; };
+		7D3EBA0B2AD10A1300571994 /* WelcomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EBA0A2AD10A1300571994 /* WelcomeVC.swift */; };
+		7D3EBA212AD10C3400571994 /* Gilroy-UltraLightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA0D2AD10C3400571994 /* Gilroy-UltraLightItalic.ttf */; };
+		7D3EBA222AD10C3400571994 /* Gilroy-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA0E2AD10C3400571994 /* Gilroy-Medium.ttf */; };
+		7D3EBA232AD10C3400571994 /* Gilroy-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA0F2AD10C3400571994 /* Gilroy-LightItalic.ttf */; };
+		7D3EBA242AD10C3400571994 /* Gilroy-ThinItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA102AD10C3400571994 /* Gilroy-ThinItalic.ttf */; };
+		7D3EBA252AD10C3400571994 /* Gilroy-HeavyItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA112AD10C3400571994 /* Gilroy-HeavyItalic.ttf */; };
+		7D3EBA262AD10C3400571994 /* Gilroy-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA122AD10C3400571994 /* Gilroy-BoldItalic.ttf */; };
+		7D3EBA272AD10C3400571994 /* Gilroy-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA132AD10C3400571994 /* Gilroy-SemiBoldItalic.ttf */; };
+		7D3EBA282AD10C3400571994 /* Gilroy-RegularItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA142AD10C3400571994 /* Gilroy-RegularItalic.ttf */; };
+		7D3EBA292AD10C3400571994 /* Gilroy-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA152AD10C3400571994 /* Gilroy-BlackItalic.ttf */; };
+		7D3EBA2A2AD10C3400571994 /* Gilroy-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA162AD10C3400571994 /* Gilroy-Regular.ttf */; };
+		7D3EBA2B2AD10C3400571994 /* Gilroy-UltraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA172AD10C3400571994 /* Gilroy-UltraLight.ttf */; };
+		7D3EBA2C2AD10C3400571994 /* Gilroy-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA182AD10C3400571994 /* Gilroy-Black.ttf */; };
+		7D3EBA2D2AD10C3400571994 /* Gilroy-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA192AD10C3400571994 /* Gilroy-ExtraBold.ttf */; };
+		7D3EBA2E2AD10C3400571994 /* Gilroy-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA1A2AD10C3400571994 /* Gilroy-MediumItalic.ttf */; };
+		7D3EBA2F2AD10C3400571994 /* Gilroy-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA1B2AD10C3400571994 /* Gilroy-Light.ttf */; };
+		7D3EBA302AD10C3400571994 /* Gilroy-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA1C2AD10C3400571994 /* Gilroy-Thin.ttf */; };
+		7D3EBA312AD10C3400571994 /* Gilroy-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA1D2AD10C3400571994 /* Gilroy-ExtraBoldItalic.ttf */; };
+		7D3EBA322AD10C3400571994 /* Gilroy-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA1E2AD10C3400571994 /* Gilroy-SemiBold.ttf */; };
+		7D3EBA332AD10C3400571994 /* Gilroy-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA1F2AD10C3400571994 /* Gilroy-Bold.ttf */; };
+		7D3EBA342AD10C3400571994 /* Gilroy-Heavy.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 7D3EBA202AD10C3400571994 /* Gilroy-Heavy.ttf */; };
+		7D3EBA382AD10CC200571994 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EBA352AD10CC200571994 /* Constant.swift */; };
+		7D3EBA392AD10CC200571994 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EBA362AD10CC200571994 /* UserDefaults.swift */; };
+		7D3EBA3A2AD10CC200571994 /* commonFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EBA372AD10CC200571994 /* commonFunction.swift */; };
+		7D3EBA3C2AD10F4500571994 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D3EBA3B2AD10F4500571994 /* SignInVC.swift */; };
+		7D54E3762AD1058E0072F237 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D54E3752AD1058E0072F237 /* AppDelegate.swift */; };
+		7D54E3782AD1058E0072F237 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D54E3772AD1058E0072F237 /* SceneDelegate.swift */; };
+		7D54E37D2AD1058E0072F237 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D54E37B2AD1058E0072F237 /* Main.storyboard */; };
+		7D54E37F2AD1058F0072F237 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D54E37E2AD1058F0072F237 /* Assets.xcassets */; };
+		7D54E3822AD1058F0072F237 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D54E3802AD1058F0072F237 /* LaunchScreen.storyboard */; };
+		7D704BE22AD1155700B20350 /* NumberVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D704BE12AD1155700B20350 /* NumberVC.swift */; };
+		7DA8BC392AD1641100ED4E51 /* VerificationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8BC382AD1641100ED4E51 /* VerificationVC.swift */; };
+		7DA8BC3B2AD164B700ED4E51 /* LocationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8BC3A2AD164B700ED4E51 /* LocationVC.swift */; };
+		7DA8BC3D2AD1679000ED4E51 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8BC3C2AD1679000ED4E51 /* LoginVC.swift */; };
+		7DA8BC3F2AD16AAF00ED4E51 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8BC3E2AD16AAF00ED4E51 /* SignUpVC.swift */; };
+		7DA8BC412AD1720100ED4E51 /* URLs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8BC402AD1720100ED4E51 /* URLs.swift */; };
+		7DA8BC432AD1743700ED4E51 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DA8BC422AD1743700ED4E51 /* WebService.swift */; };
+		7DE8F1B72ADACC8200C8C182 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DE8F1B62ADACC8200C8C182 /* UserData.swift */; };
+		9F551A52AFFBFC8DD3E63D2E /* Pods_Nectar_Grocery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CB5EBC5596F3C5DAD0C811 /* Pods_Nectar_Grocery.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		20804673747B9613BBEC0412 /* Pods-Nectar Grocery.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nectar Grocery.debug.xcconfig"; path = "Target Support Files/Pods-Nectar Grocery/Pods-Nectar Grocery.debug.xcconfig"; sourceTree = "<group>"; };
+		5EBFEC3558A1D700249A45DC /* Pods-Nectar Grocery.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Nectar Grocery.release.xcconfig"; path = "Target Support Files/Pods-Nectar Grocery/Pods-Nectar Grocery.release.xcconfig"; sourceTree = "<group>"; };
+		7D26A4F02AD1AC9D00F76739 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7D3EBA0A2AD10A1300571994 /* WelcomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeVC.swift; sourceTree = "<group>"; };
+		7D3EBA0D2AD10C3400571994 /* Gilroy-UltraLightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLightItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA0E2AD10C3400571994 /* Gilroy-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Medium.ttf"; sourceTree = "<group>"; };
+		7D3EBA0F2AD10C3400571994 /* Gilroy-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-LightItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA102AD10C3400571994 /* Gilroy-ThinItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ThinItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA112AD10C3400571994 /* Gilroy-HeavyItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-HeavyItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA122AD10C3400571994 /* Gilroy-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BoldItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA132AD10C3400571994 /* Gilroy-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA142AD10C3400571994 /* Gilroy-RegularItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-RegularItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA152AD10C3400571994 /* Gilroy-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-BlackItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA162AD10C3400571994 /* Gilroy-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Regular.ttf"; sourceTree = "<group>"; };
+		7D3EBA172AD10C3400571994 /* Gilroy-UltraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-UltraLight.ttf"; sourceTree = "<group>"; };
+		7D3EBA182AD10C3400571994 /* Gilroy-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Black.ttf"; sourceTree = "<group>"; };
+		7D3EBA192AD10C3400571994 /* Gilroy-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBold.ttf"; sourceTree = "<group>"; };
+		7D3EBA1A2AD10C3400571994 /* Gilroy-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-MediumItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA1B2AD10C3400571994 /* Gilroy-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Light.ttf"; sourceTree = "<group>"; };
+		7D3EBA1C2AD10C3400571994 /* Gilroy-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Thin.ttf"; sourceTree = "<group>"; };
+		7D3EBA1D2AD10C3400571994 /* Gilroy-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		7D3EBA1E2AD10C3400571994 /* Gilroy-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-SemiBold.ttf"; sourceTree = "<group>"; };
+		7D3EBA1F2AD10C3400571994 /* Gilroy-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Bold.ttf"; sourceTree = "<group>"; };
+		7D3EBA202AD10C3400571994 /* Gilroy-Heavy.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Gilroy-Heavy.ttf"; sourceTree = "<group>"; };
+		7D3EBA352AD10CC200571994 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		7D3EBA362AD10CC200571994 /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		7D3EBA372AD10CC200571994 /* commonFunction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = commonFunction.swift; sourceTree = "<group>"; };
+		7D3EBA3B2AD10F4500571994 /* SignInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		7D54E3722AD1058E0072F237 /* Nectar Grocery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Nectar Grocery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D54E3752AD1058E0072F237 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D54E3772AD1058E0072F237 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7D54E37C2AD1058E0072F237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7D54E37E2AD1058F0072F237 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7D54E3812AD1058F0072F237 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D54E3832AD1058F0072F237 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D704BE12AD1155700B20350 /* NumberVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberVC.swift; sourceTree = "<group>"; };
+		7DA8BC382AD1641100ED4E51 /* VerificationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationVC.swift; sourceTree = "<group>"; };
+		7DA8BC3A2AD164B700ED4E51 /* LocationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationVC.swift; sourceTree = "<group>"; };
+		7DA8BC3C2AD1679000ED4E51 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		7DA8BC3E2AD16AAF00ED4E51 /* SignUpVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpVC.swift; sourceTree = "<group>"; };
+		7DA8BC402AD1720100ED4E51 /* URLs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLs.swift; sourceTree = "<group>"; };
+		7DA8BC422AD1743700ED4E51 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		7DE8F1B62ADACC8200C8C182 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		93CB5EBC5596F3C5DAD0C811 /* Pods_Nectar_Grocery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Nectar_Grocery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D54E36F2AD1058E0072F237 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F551A52AFFBFC8DD3E63D2E /* Pods_Nectar_Grocery.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C5D198116E735397DF32F05 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				93CB5EBC5596F3C5DAD0C811 /* Pods_Nectar_Grocery.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7D3EBA022AD1087500571994 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7DE8F1B62ADACC8200C8C182 /* UserData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7D3EBA042AD1089300571994 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EBA092AD10A0000571994 /* Authentication */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		7D3EBA052AD1089D00571994 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7D3EBA062AD108A800571994 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				7DA8BC422AD1743700ED4E51 /* WebService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		7D3EBA072AD108B100571994 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EBA0C2AD10C3400571994 /* gilroy */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		7D3EBA082AD108B700571994 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EBA372AD10CC200571994 /* commonFunction.swift */,
+				7D3EBA352AD10CC200571994 /* Constant.swift */,
+				7D3EBA362AD10CC200571994 /* UserDefaults.swift */,
+				7DA8BC402AD1720100ED4E51 /* URLs.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		7D3EBA092AD10A0000571994 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EBA0A2AD10A1300571994 /* WelcomeVC.swift */,
+				7D3EBA3B2AD10F4500571994 /* SignInVC.swift */,
+				7D704BE12AD1155700B20350 /* NumberVC.swift */,
+				7DA8BC382AD1641100ED4E51 /* VerificationVC.swift */,
+				7DA8BC3A2AD164B700ED4E51 /* LocationVC.swift */,
+				7DA8BC3C2AD1679000ED4E51 /* LoginVC.swift */,
+				7DA8BC3E2AD16AAF00ED4E51 /* SignUpVC.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		7D3EBA0C2AD10C3400571994 /* gilroy */ = {
+			isa = PBXGroup;
+			children = (
+				7D3EBA0D2AD10C3400571994 /* Gilroy-UltraLightItalic.ttf */,
+				7D3EBA0E2AD10C3400571994 /* Gilroy-Medium.ttf */,
+				7D3EBA0F2AD10C3400571994 /* Gilroy-LightItalic.ttf */,
+				7D3EBA102AD10C3400571994 /* Gilroy-ThinItalic.ttf */,
+				7D3EBA112AD10C3400571994 /* Gilroy-HeavyItalic.ttf */,
+				7D3EBA122AD10C3400571994 /* Gilroy-BoldItalic.ttf */,
+				7D3EBA132AD10C3400571994 /* Gilroy-SemiBoldItalic.ttf */,
+				7D3EBA142AD10C3400571994 /* Gilroy-RegularItalic.ttf */,
+				7D3EBA152AD10C3400571994 /* Gilroy-BlackItalic.ttf */,
+				7D3EBA162AD10C3400571994 /* Gilroy-Regular.ttf */,
+				7D3EBA172AD10C3400571994 /* Gilroy-UltraLight.ttf */,
+				7D3EBA182AD10C3400571994 /* Gilroy-Black.ttf */,
+				7D3EBA192AD10C3400571994 /* Gilroy-ExtraBold.ttf */,
+				7D3EBA1A2AD10C3400571994 /* Gilroy-MediumItalic.ttf */,
+				7D3EBA1B2AD10C3400571994 /* Gilroy-Light.ttf */,
+				7D3EBA1C2AD10C3400571994 /* Gilroy-Thin.ttf */,
+				7D3EBA1D2AD10C3400571994 /* Gilroy-ExtraBoldItalic.ttf */,
+				7D3EBA1E2AD10C3400571994 /* Gilroy-SemiBold.ttf */,
+				7D3EBA1F2AD10C3400571994 /* Gilroy-Bold.ttf */,
+				7D3EBA202AD10C3400571994 /* Gilroy-Heavy.ttf */,
+			);
+			path = gilroy;
+			sourceTree = "<group>";
+		};
+		7D54E3692AD1058E0072F237 = {
+			isa = PBXGroup;
+			children = (
+				7D54E3742AD1058E0072F237 /* Nectar Grocery */,
+				7D54E3732AD1058E0072F237 /* Products */,
+				F154F3B969B7014C972423AC /* Pods */,
+				6C5D198116E735397DF32F05 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7D54E3732AD1058E0072F237 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D54E3722AD1058E0072F237 /* Nectar Grocery.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D54E3742AD1058E0072F237 /* Nectar Grocery */ = {
+			isa = PBXGroup;
+			children = (
+				7D54E3752AD1058E0072F237 /* AppDelegate.swift */,
+				7D54E3772AD1058E0072F237 /* SceneDelegate.swift */,
+				7D3EBA082AD108B700571994 /* Utils */,
+				7D3EBA072AD108B100571994 /* Fonts */,
+				7D3EBA062AD108A800571994 /* Networking */,
+				7D3EBA052AD1089D00571994 /* Extension */,
+				7D3EBA022AD1087500571994 /* Model */,
+				7D3EBA042AD1089300571994 /* ViewControllers */,
+				7D54E37B2AD1058E0072F237 /* Main.storyboard */,
+				7D54E3802AD1058F0072F237 /* LaunchScreen.storyboard */,
+				7D54E37E2AD1058F0072F237 /* Assets.xcassets */,
+				7D26A4F02AD1AC9D00F76739 /* GoogleService-Info.plist */,
+				7D54E3832AD1058F0072F237 /* Info.plist */,
+			);
+			path = "Nectar Grocery";
+			sourceTree = "<group>";
+		};
+		F154F3B969B7014C972423AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20804673747B9613BBEC0412 /* Pods-Nectar Grocery.debug.xcconfig */,
+				5EBFEC3558A1D700249A45DC /* Pods-Nectar Grocery.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7D54E3712AD1058E0072F237 /* Nectar Grocery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D54E3862AD1058F0072F237 /* Build configuration list for PBXNativeTarget "Nectar Grocery" */;
+			buildPhases = (
+				235915CE25C76084BE6B2260 /* [CP] Check Pods Manifest.lock */,
+				7D54E36E2AD1058E0072F237 /* Sources */,
+				7D54E36F2AD1058E0072F237 /* Frameworks */,
+				7D54E3702AD1058E0072F237 /* Resources */,
+				BE75C5B253F174671BB001F5 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Nectar Grocery";
+			productName = "Nectar Grocery";
+			productReference = 7D54E3722AD1058E0072F237 /* Nectar Grocery.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D54E36A2AD1058E0072F237 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					7D54E3712AD1058E0072F237 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7D54E36D2AD1058E0072F237 /* Build configuration list for PBXProject "Nectar Grocery" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7D54E3692AD1058E0072F237;
+			productRefGroup = 7D54E3732AD1058E0072F237 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D54E3712AD1058E0072F237 /* Nectar Grocery */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7D54E3702AD1058E0072F237 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D3EBA252AD10C3400571994 /* Gilroy-HeavyItalic.ttf in Resources */,
+				7D3EBA272AD10C3400571994 /* Gilroy-SemiBoldItalic.ttf in Resources */,
+				7D3EBA2A2AD10C3400571994 /* Gilroy-Regular.ttf in Resources */,
+				7D3EBA332AD10C3400571994 /* Gilroy-Bold.ttf in Resources */,
+				7D3EBA2E2AD10C3400571994 /* Gilroy-MediumItalic.ttf in Resources */,
+				7D3EBA342AD10C3400571994 /* Gilroy-Heavy.ttf in Resources */,
+				7D3EBA322AD10C3400571994 /* Gilroy-SemiBold.ttf in Resources */,
+				7D3EBA2C2AD10C3400571994 /* Gilroy-Black.ttf in Resources */,
+				7D3EBA212AD10C3400571994 /* Gilroy-UltraLightItalic.ttf in Resources */,
+				7D54E3822AD1058F0072F237 /* LaunchScreen.storyboard in Resources */,
+				7D3EBA292AD10C3400571994 /* Gilroy-BlackItalic.ttf in Resources */,
+				7D3EBA2B2AD10C3400571994 /* Gilroy-UltraLight.ttf in Resources */,
+				7D3EBA2D2AD10C3400571994 /* Gilroy-ExtraBold.ttf in Resources */,
+				7D3EBA242AD10C3400571994 /* Gilroy-ThinItalic.ttf in Resources */,
+				7D3EBA302AD10C3400571994 /* Gilroy-Thin.ttf in Resources */,
+				7D3EBA312AD10C3400571994 /* Gilroy-ExtraBoldItalic.ttf in Resources */,
+				7D3EBA222AD10C3400571994 /* Gilroy-Medium.ttf in Resources */,
+				7D26A4F12AD1AC9D00F76739 /* GoogleService-Info.plist in Resources */,
+				7D54E37F2AD1058F0072F237 /* Assets.xcassets in Resources */,
+				7D3EBA282AD10C3400571994 /* Gilroy-RegularItalic.ttf in Resources */,
+				7D54E37D2AD1058E0072F237 /* Main.storyboard in Resources */,
+				7D3EBA2F2AD10C3400571994 /* Gilroy-Light.ttf in Resources */,
+				7D3EBA232AD10C3400571994 /* Gilroy-LightItalic.ttf in Resources */,
+				7D3EBA262AD10C3400571994 /* Gilroy-BoldItalic.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		235915CE25C76084BE6B2260 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Nectar Grocery-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE75C5B253F174671BB001F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nectar Grocery/Pods-Nectar Grocery-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Nectar Grocery/Pods-Nectar Grocery-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Nectar Grocery/Pods-Nectar Grocery-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D54E36E2AD1058E0072F237 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DA8BC3D2AD1679000ED4E51 /* LoginVC.swift in Sources */,
+				7DA8BC412AD1720100ED4E51 /* URLs.swift in Sources */,
+				7DA8BC432AD1743700ED4E51 /* WebService.swift in Sources */,
+				7DE8F1B72ADACC8200C8C182 /* UserData.swift in Sources */,
+				7D3EBA0B2AD10A1300571994 /* WelcomeVC.swift in Sources */,
+				7D3EBA392AD10CC200571994 /* UserDefaults.swift in Sources */,
+				7D54E3762AD1058E0072F237 /* AppDelegate.swift in Sources */,
+				7DA8BC3F2AD16AAF00ED4E51 /* SignUpVC.swift in Sources */,
+				7D704BE22AD1155700B20350 /* NumberVC.swift in Sources */,
+				7D54E3782AD1058E0072F237 /* SceneDelegate.swift in Sources */,
+				7DA8BC3B2AD164B700ED4E51 /* LocationVC.swift in Sources */,
+				7D3EBA3C2AD10F4500571994 /* SignInVC.swift in Sources */,
+				7DA8BC392AD1641100ED4E51 /* VerificationVC.swift in Sources */,
+				7D3EBA3A2AD10CC200571994 /* commonFunction.swift in Sources */,
+				7D3EBA382AD10CC200571994 /* Constant.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7D54E37B2AD1058E0072F237 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D54E37C2AD1058E0072F237 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7D54E3802AD1058F0072F237 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7D54E3812AD1058F0072F237 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7D54E3842AD1058F0072F237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7D54E3852AD1058F0072F237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D54E3872AD1058F0072F237 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20804673747B9613BBEC0412 /* Pods-Nectar Grocery.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PR849ZVW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nectar Grocery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nectar Grocery";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darshan.nectar.com.Nectar-Grocery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7D54E3882AD1058F0072F237 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5EBFEC3558A1D700249A45DC /* Pods-Nectar Grocery.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8PR849ZVW4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Nectar Grocery/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Nectar Grocery";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Application requires user’s location for better user experience.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.darshan.nectar.com.Nectar-Grocery";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D54E36D2AD1058E0072F237 /* Build configuration list for PBXProject "Nectar Grocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D54E3842AD1058F0072F237 /* Debug */,
+				7D54E3852AD1058F0072F237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D54E3862AD1058F0072F237 /* Build configuration list for PBXNativeTarget "Nectar Grocery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D54E3872AD1058F0072F237 /* Debug */,
+				7D54E3882AD1058F0072F237 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D54E36A2AD1058E0072F237 /* Project object */;
+}
